@@ -1,0 +1,43 @@
+palettes:
+  - name: global_palette
+    fixed-entries:
+      - color: {index: 0, r: 255, g: 0, b: 128}
+      - color: {index: 1, r: 255, g: 255, b: 255}
+      - color: {index: 2, r: 0, g: 0, b: 0}
+      - color: {index: 3, r: 43, g: 83, b: 41}
+      - color: {index: 4, r: 139, g: 0, b: 0}
+    images: automatic
+
+converts:
+  - name: sprites
+    palette: global_palette
+    images:
+      - cmcb.png
+      - cmcr.png
+      - cmcl.png
+      - cmcf.png
+      - axe.png
+      - wood.png
+      - ember.png
+      - stump.png
+      - berby.png
+      - berry.png
+      - block.png
+      - heli.png
+      - radio.png
+      - crash.png
+      - barrel.png
+      - beer.png
+
+  
+
+
+
+outputs:
+  - type: c
+    include-file: gfx.h
+    palettes:
+      - global_palette
+    converts:
+      - sprites
+

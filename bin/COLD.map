@@ -1,0 +1,171 @@
+Section          Base   Top    High   Length
+---------------- ------ ------ ------ -------
+.icon            D1A882 D1A99E           11Ch
+.init.libs       D1A99E D1A9F6            58h
+.libs            D1A9F6 D1AA8D            97h
+.init.clock      D1AA8D D1AAA8            1Bh
+.init.reruncheck D1AAA8 D1AAA8             0h
+.init            D1AAA8 D1AAD4            2Ch
+.fini            D1AAD4 D1AB08            34h
+.text            D1AB08 D1EF0C          4404h
+.data            D1EF0C D21926          2A1Ah
+.rodata          D21926 D21C61           33Bh
+.init_array      000000 000000             0h
+.ctors           000000 000000             0h
+.dtors           000000 000000             0h
+.fini_array      000000 000000             0h
+.bss             D052C6 D05570 D13FD8    2AAh
+.header          D1A87F D1A882             3h
+
+Label                                         Value
+-------------------------------------------   ------
+___low_bss                                  = D052C6
+___len_bss                                  = 0002AA
+___heaptop                                  = D13FD8
+___heapbot                                  = D05570
+___libs                                     = D1A9F6
+___init_array_count                         = 000000
+___ctors_count                              = 000000
+___dtors_count                              = 000000
+___fini_array_count                         = 000000
+__stack                                     = D1A87E
+__frameset                                  = D1AB08
+__frameset0                                 = D1AB16
+__iand                                      = D1AB21
+__idivs                                     = D1AB3A
+__idvrms                                    = D1AB41
+__idvrmu                                    = D1AB6F
+__imulu                                     = D1AB87
+__ineg                                      = D1ABB7
+__ishl                                      = D1ABC0
+__ishrs                                     = D1ABEB
+__ishru                                     = D1ABE6
+__ladd                                      = D1AC27
+__lcmps                                     = D1AC2D
+__lmulu                                     = D1AC3A
+__lneg                                      = D1AC96
+__ftol                                      = 00027C
+__ftoul                                     = 00027C
+__ltof                                      = 000284
+__setflag                                   = 000218
+__ultof                                     = 000280
+__sand                                      = D1ACA3
+_atomic_load_increasing_32                  = D1ACAC
+_delay                                      = D1ACD1
+_os_DisableHomeTextBuffer                   = D1ACFB
+_os_EnableHomeTextBuffer                    = D1AD0D
+___sleep_common.3                           = D1AD21
+_os_RealToStr                               = 021CB4
+_os_FloatToReal                             = 022170
+___maptab                                   = D21926
+_strtol                                     = D1AD3A
+_clock                                      = D1AF33
+_isspace                                    = D1AF3E
+_strlen                                     = 0000D4
+_toupper                                    = 021E38
+_errno                                      = D008DC
+.missingappvar                              = D219A6
+.libloadname                                = D219AB
+.libloadnamelen                             = 000007
+.webaddress                                 = D219B3
+___init_clock                               = D1AA8D
+__start                                     = D1AAA8
+___exithl                                   = D1AAD4
+skip._exit                                  = D1AAD4
+skip.__Exit                                 = D1AAD4
+skip._abort                                 = D1AAD4
+_exit.sp                                    = D1AAD5
+_exit.flash_wait_states                     = D1AADF
+_main                                       = D1AF55
+_GabeRead                                   = D1E1DA
+_peakcinema                                 = D1E21D
+_ScreenNamedVaugh                           = D1E2C8
+_Drawnonmove                                = D1E420
+_PrestonMoves                               = D1E607
+JTI5_0                                      = D219C8
+JTI5_1                                      = D219D4
+_poscheck                                   = D1E80F
+JTI6_0                                      = D219E6
+_Emote                                      = D1EA96
+_PoleCheck                                  = D1EB2F
+JTI8_0                                      = D219F5
+_background_data                            = D052C6
+_background                                 = D1EF0C
+_collisionobj                               = D1EF0F
+_.str                                       = D21A19
+_.str.1                                     = D21A20
+_.str.2                                     = D21A22
+_.str.3                                     = D21A25
+_global_palette                             = D1F12B
+_.str.4                                     = D21A28
+_.str.5                                     = D21A30
+_.str.6                                     = D21A40
+_.str.7                                     = D21A65
+_.str.8                                     = D21A89
+_.str.9                                     = D21AA7
+_.str.10                                    = D21AC6
+_.str.11                                    = D21AE3
+_.str.12                                    = D21AE9
+_berry_data                                 = D1F32B
+_barrel_data                                = D1F471
+_beer_data                                  = D1F6E4
+_.str.13                                    = D21AFF
+_.str.14                                    = D21B20
+_.str.15                                    = D21B53
+_.str.16                                    = D21B7D
+_.str.17                                    = D21BAE
+_.str.18                                    = D21BCF
+_.str.19                                    = D21BEF
+_.str.20                                    = D21C0C
+_wood_data                                  = D1F7BE
+_radio_data                                 = D1F904
+_ember_data                                 = D1F9DE
+_axe_data                                   = D1FB24
+_i                                          = D05563
+_cmcf_data                                  = D1FC8F
+_.str.21                                    = D21C3C
+_tempstring                                 = D05566
+_.str.22                                    = D21C3D
+_.str.23                                    = D21C45
+_.str.24                                    = D21C4A
+_.str.25                                    = D21C52
+_.str.26                                    = D21C57
+_.str.27                                    = D21C5D
+_stump_data                                 = D1FF2C
+_berby_data                                 = D2032E
+_block_data                                 = D20541
+_crash_data                                 = D20643
+_PrestonMoves.oldX                          = D2138D
+_PrestonMoves.oldY                          = D21390
+_cmcl_data                                  = D21393
+_cmcr_data                                  = D2150E
+_cmcb_data                                  = D21689
+lib.LibLoad                                 = D1A9F6
+_#ti_Open                                   = D1AA0A
+_#ti_Close                                  = D1AA0E
+_#ti_Write                                  = D1AA12
+_#ti_Read                                   = D1AA16
+_#ti_Rewind                                 = D1AA1A
+_#gfx_Begin                                 = D1AA27
+_#gfx_End                                   = D1AA2B
+_#gfx_SetColor                              = D1AA2F
+_#gfx_SetPalette                            = D1AA33
+_#gfx_FillScreen                            = D1AA37
+_#gfx_SetDraw                               = D1AA3B
+_#gfx_Blit                                  = D1AA3F
+_#gfx_PrintChar                             = D1AA43
+_#gfx_PrintInt                              = D1AA47
+_#gfx_PrintStringXY                         = D1AA4B
+_#gfx_SetTextXY                             = D1AA4F
+_#gfx_SetTextFGColor                        = D1AA53
+_#gfx_Line                                  = D1AA57
+_#gfx_Rectangle                             = D1AA5B
+_#gfx_FillRectangle                         = D1AA5F
+_#gfx_FillCircle_NoClip                     = D1AA63
+_#gfx_Sprite                                = D1AA67
+_#gfx_TransparentSprite                     = D1AA6B
+_#gfx_GetSprite                             = D1AA6F
+_#gfx_ScaledTransparentSprite_NoClip        = D1AA73
+_#gfx_SetTransparentColor                   = D1AA77
+_#gfx_RotatedScaledTransparentSprite_NoClip = D1AA7B
+_#kb_Scan                                   = D1AA89
