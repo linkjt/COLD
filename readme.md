@@ -40,6 +40,7 @@ For On Calc:
 6. Make sure your calculator is jail broken(or jailbreak it): https://yvantt.github.io/arTIfiCE/
 7. Transfer the program to your calculators RAM
 8. Enjoy :), bugs go to the issues thing cause i need practice with github or https://www.cemetech.net/forum/viewtopic.php?t=19962&highlight=
+
 For Emulation:
 1. If ur reading this, you probably already know what u got to do otherwise
 2. Cemu, CE TOOLCHAIN, src download, compile, yada yada yada
