@@ -6,6 +6,7 @@ palettes:
       - color: {index: 2, r: 0, g: 0, b: 0}
       - color: {index: 3, r: 43, g: 83, b: 41}
       - color: {index: 4, r: 139, g: 0, b: 0}
+      - color: {index: 5, r: 139, g: 69, b: 19}
     images: automatic
 
 converts:
@@ -28,6 +29,8 @@ converts:
       - crash.png
       - barrel.png
       - beer.png
+      - hottub.png
+      - radiot.png
 
   
 

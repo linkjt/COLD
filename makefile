@@ -7,7 +7,7 @@ ICON = icon.png
 DESCRIPTION = "Winter Survival Game"
 COMPRESSED = YES
 COMPRESSED_MODE = zx0
-ARCHIVED = NO
+ARCHIVED = YES
 HAS_PRINTF = NO
 
 CFLAGS = -Wall -Wextra -Oz

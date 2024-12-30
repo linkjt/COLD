@@ -32,4 +32,8 @@ barrel.h
 barrel.c
 beer.h
 beer.c
+hottub.h
+hottub.c
+radiot.h
+radiot.c
 gfx.h
